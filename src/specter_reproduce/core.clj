@@ -1,7 +1,6 @@
 (ns specter-reproduce.core
   (:gen-class)
-  (:require [specter-reproduce.core-path :as cp]
-            [specter-reproduce.other-ns :as o-ns]))
+  (:require [specter-reproduce.paths]))
 
 (defn -main
   "I don't do a whole lot ... yet."
